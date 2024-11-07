@@ -6,7 +6,7 @@
 
 Zunächst einmal können Sie dieses Repository wieder über git klonen.  
 
-Legen Sie für jede der Aufgaben einen Ordner an, in dem Sie die entsprechenden Konfigurationsdateien ablegen.  
+Legen Sie für jede der Aufgaben einen Ordner an.   
 
 In dieser Übung werden wir die Programmiersprache Go verwenden. Diese ist im cloud-nativen Umfeld sehr beliebt. Kernkomponenten von Docker und Kubernetes sind bspw. in Go geschrieben.  
 
