@@ -56,7 +56,7 @@ Testen Sie nun mit Postman, wie der Server auf GET, PUT, POST und DELETE Request
 
 Passen Sie das Programm aus Aufgabe 1 so an, dass auf die unterschiedlichen http-Requests (GET, PUT, POST und DELETE) auch unterschiedliche Responses erfolgen.  
 
-Hinweis: In der Funktion helloHandler kann durch die Abfrage ob `r.Method` einem http.MethodGet entspricht bspw. überprüft werden, ob es sich um einen GET-Request handelt.  
+Hinweis: In der Funktion helloHandler kann durch die Abfrage ob `r.Method` einer `http.MethodGet` entspricht bspw. überprüft werden, ob es sich um einen GET-Request handelt.  
 
 Prüfen Sie nun mit Postamn, ob ihr Programm auf unterschiedliche Requests auch entsprechend reagiert.  
 
