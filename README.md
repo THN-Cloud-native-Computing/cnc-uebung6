@@ -48,7 +48,17 @@ Rufen Sie in ihrem Browser nun
    ```bash
 http://localhost:8080
    ```
-auf, und vergewissern sie sich, dass der Server Requests korrekt beantwortet.
+auf, und vergewissern sie sich, dass der Server Requests korrekt beantwortet.  
+
+Testen Sie nun mit Postman, wie der Server auf GET, PUT, POST und DELETE Requests reagiert.
+
+**Aufgabe 2 - Anpassung der API zum Handling unterschiedlicher http-Requests**
+
+Passen Sie das Programm aus Aufgabe 1 so an, dass auf die unterschiedlichen http-Requests (GET, PUT, POST und DELETE) auch unterschiedliche Responses erfolgen.  
+
+Hinweis: In der Funktion helloHandler kann durch die Abfrage ob r.Method einem http.MethodGet entspricht bspw. überprüft werden, ob es sich um einen GET-Request handelt.  
+
+Prüfen Sie nun mit Postamn, ob ihr Programm auf unterschiedliche Requests auch entsprechend reagiert.  
 
 
 
