@@ -31,6 +31,27 @@ Außerdem werden wir in dieser Übung Postman verwenden, mit welchem man u.a. AP
 
 **Aufgabe 1 - Eine vereinfachte Rest API mit Go entwickeln und mit Postman testen**
 
+Erstellen Sie ein Verzeichnis für diese Aufgabe und legen Sie die Datei main.go darin ab.  
+
+Erklären Sie, was das Programm tut.  
+
+Öffnen Sie nun ein Terminal und navigieren Sie zum Verzeichnis für diese Aufgabe.  
+
+Starten Sie das Programm mit:
+
+   ```bash
+go run main.go
+   ```
+
+Rufen Sie in ihrem Browser nun
+
+   ```bash
+http://localhost:8080
+   ```
+auf, und vergewissern sie sich, dass der Server Requests korrekt beantwortet.
+
+
+
 In dieser Übung werden wir Docker Compose verwenden, um ein kleines Container-Cluster bestehend aus einer Wordpress-Instanz und einer MySQL-Instanz aufzusetzen. Hier finden Sie weitergehende Informationen zu Docker Compose: [https://docs.docker.com/compose/](https://docs.docker.com/compose/)  
 
 Legen Sie zunächst einen Ordner für diese Aufgabe an (z. B. Aufgabe1).  Legen Sie dort die folgende Docker Compose Konfigurationsdatei ab:
