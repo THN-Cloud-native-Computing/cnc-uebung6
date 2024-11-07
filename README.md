@@ -27,7 +27,7 @@ Hier können Sie sich zunächst einen Überblick über die wichtigsten Sprachkon
 
 Hier finden Sie die Standard-Library: [https://pkg.go.dev/std](https://pkg.go.dev/std)  
 
-Außerdem werden wir in dieser Übung Postman verwenden, mit welchem man u.a. APIs testen kann. Sie können das Tool hier kostenlos herunterladen bzw. sich kostenlos registrieren: [https://www.postman.com/](https://www.postman.com/)
+Außerdem werden wir in dieser Übung Postman verwenden, womit man u.a. APIs testen kann. Sie können das Tool hier kostenlos herunterladen bzw. sich kostenlos registrieren: [https://www.postman.com/](https://www.postman.com/)
 
 **Aufgabe 1 - Eine vereinfachte Rest API mit Go entwickeln und mit Postman testen**
 
