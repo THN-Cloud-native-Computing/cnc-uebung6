@@ -10,7 +10,11 @@ Legen Sie für jede der Aufgaben einen Ordner an, in dem Sie die entsprechenden 
 
 In dieser Übung werden wir die Programmiersprache Go verwenden. Diese ist im cloud-nativen Umfeld sehr beliebt. Kernkomponenten von Docker und Kubernetes sind bspw. in Go geschrieben.  
 
-Installieren Sie zunächst [Go](https://go.dev/)
+Installieren Sie zunächst [Go](https://go.dev/)  
+
+Hier können Sie sich zunächst einen Überblick über die wichtigsten Sprachkonstrukte verschaffen: [https://www.golang-book.com/books/intro](https://www.golang-book.com/books/intro)  
+
+Hier finden Sie die Standard-Library: [https://pkg.go.dev/std](https://pkg.go.dev/std)
 
 **Aufgabe 1 - Eine Wordpress und MySQL App mit Docker Compose aufsetzen**
 
