@@ -61,27 +61,6 @@ Hinweis: In der Funktion helloHandler kann durch die Abfrage ob `r.Method` einer
 Prüfen Sie nun mit Postamn, ob ihr Programm auf unterschiedliche Requests auch entsprechend reagiert.  
 
 
-
-In dieser Übung werden wir Docker Compose verwenden, um ein kleines Container-Cluster bestehend aus einer Wordpress-Instanz und einer MySQL-Instanz aufzusetzen. Hier finden Sie weitergehende Informationen zu Docker Compose: [https://docs.docker.com/compose/](https://docs.docker.com/compose/)  
-
-Legen Sie zunächst einen Ordner für diese Aufgabe an (z. B. Aufgabe1).  Legen Sie dort die folgende Docker Compose Konfigurationsdatei ab:
-   ```bash
-docker-compose.yml
-   ```
-Starten Sie die App mit:
-   ```bash
-docker compose up
-   ```
-Prüfen Sie die beiden laufenden Container einmal im Docker Desktop Dashboard.  
-
-Öffnen Sie ihren Browser mit der URL:
-   ```bash
-http://localhost:8080
-   ```
-Sie sollten nun die Wordpress-Startseite sehen.  
-
-Stoppen Sie danach die Container wieder.
-
 **Aufgabe 2 - Ein erstes Kubernetes Cluster aufsetzen**
 
 Installieren Sie [kubectl](https://kubernetes.io/de/docs/tasks/tools/install-kubectl/)
