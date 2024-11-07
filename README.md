@@ -60,6 +60,13 @@ Hinweis: In der Funktion helloHandler kann durch die Abfrage ob `r.Method` einer
 
 Prüfen Sie nun mit Postamn, ob ihr Programm auf unterschiedliche Requests auch entsprechend reagiert.  
 
+**Aufgabe 3 - HTML-Responses**
+
+Passen Sie das Programm aus Aufgabe 2 so an, dass statt reinem Text, html-Code zurückgegeben wird.  
+
+Hinweis: In der Funktion `Fprintf` kann statt Text auch in backticks gewrappter html-code eingefügt werden.    
+
+Prüfen Sie mit ihrem Browser bzw. mit Postamn, ob ihr Programm auf unterschiedliche Requests auch entsprechenden html-Code zurück gibt. 
 
 **Aufgabe 2 - Ein erstes Kubernetes Cluster aufsetzen**
 
