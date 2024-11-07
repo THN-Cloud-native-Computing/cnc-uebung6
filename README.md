@@ -1,6 +1,6 @@
 # Übung 6
 
-![kubernetes.png](kubernetes.png)
+![microservices.jpg](microservices.jpg)
 
 **Hinweise:**
 
