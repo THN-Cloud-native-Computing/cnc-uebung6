@@ -14,9 +14,11 @@ Installieren Sie zunächst [Go](https://go.dev/)
 
 Hier können Sie sich zunächst einen Überblick über die wichtigsten Sprachkonstrukte verschaffen: [https://www.golang-book.com/books/intro](https://www.golang-book.com/books/intro)  
 
-Hier finden Sie die Standard-Library: [https://pkg.go.dev/std](https://pkg.go.dev/std)
+Hier finden Sie die Standard-Library: [https://pkg.go.dev/std](https://pkg.go.dev/std)  
 
-**Aufgabe 1 - Eine Wordpress und MySQL App mit Docker Compose aufsetzen**
+Außerdem werden wir in dieser Übung Postman verwenden, mit welchem man u.a. APIs testen kann. Sie können das Tool hier kostenlos herunterladen bzw. sich kostenlos registrieren: [https://www.postman.com/](https://www.postman.com/)
+
+**Aufgabe 1 - Eine vereinfachte Rest API mit Go entwickeln und Testen mit Postman**
 
 In dieser Übung werden wir Docker Compose verwenden, um ein kleines Container-Cluster bestehend aus einer Wordpress-Instanz und einer MySQL-Instanz aufzusetzen. Hier finden Sie weitergehende Informationen zu Docker Compose: [https://docs.docker.com/compose/](https://docs.docker.com/compose/)  
 
