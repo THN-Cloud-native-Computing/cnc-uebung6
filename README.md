@@ -58,15 +58,15 @@ Passen Sie das Programm aus Aufgabe 1 so an, dass auf die unterschiedlichen http
 
 Hinweis: In der Funktion helloHandler kann durch die Abfrage ob `r.Method` einer `http.MethodGet` entspricht bspw. überprüft werden, ob es sich um einen GET-Request handelt.  
 
-Prüfen Sie nun mit Postamn, ob ihr Programm auf unterschiedliche Requests auch entsprechend reagiert.  
+Prüfen Sie nun mit Postman, ob ihr Programm auf unterschiedliche Requests auch entsprechend reagiert.  
 
 **Aufgabe 3 - HTML-Responses**
 
-Passen Sie das Programm aus Aufgabe 2 so an, dass statt reinem Text html-Code zurückgegeben wird.  
+Passen Sie das Programm aus Aufgabe 2 so an, dass statt reinem Text, html-Code zurückgegeben wird.  
 
 Hinweis: In der Funktion `Fprintf` kann statt Text auch in backticks gewrappter html-Code eingefügt werden.    
 
-Prüfen Sie mit ihrem Browser bzw. mit Postamn, ob ihr Programm auf unterschiedliche Requests auch entsprechenden html-Code zurück gibt. 
+Prüfen Sie mit ihrem Browser bzw. mit Postman, ob ihr Programm auf unterschiedliche Requests auch entsprechenden html-Code zurück gibt. 
 
 **Aufgabe 2 - Ein erstes Kubernetes Cluster aufsetzen**
 
