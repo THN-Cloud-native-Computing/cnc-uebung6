@@ -68,6 +68,23 @@ Hinweis: In der Funktion `Fprintf` kann statt Text auch in backticks gewrappter 
 
 Prüfen Sie mit ihrem Browser bzw. mit Postman, ob ihr Programm auf unterschiedliche Requests auch entsprechenden html-Code zurück gibt. 
 
+**Aufgabe 3 - Zwei einfache kommunizierende Microservices**
+
+Im Verzeichnis 2-simple-microservices finden Sie in den Unterverzeichnissen zwei einfache in Go implementierte Microservices. Starten Sie sowohl im Verzeichnis service-a als auch im Verzeichnis service-b die beiden Dienste mit
+
+   ```bash
+go run main.go
+   ```
+
+Öffnen Sie ihren Browser mit der Adresse
+
+   ```bash
+http://localhost:8080/service-a
+   ```
+und prüfen Sie, ob die Kommunikation der beiden Dienste funktioniert.  
+
+Wie sind die beiden Dienste gekoppelt? Ist das gut? Diskutieren Sie das!
+
 **Aufgabe 2 - Ein erstes Kubernetes Cluster aufsetzen**
 
 Installieren Sie [kubectl](https://kubernetes.io/de/docs/tasks/tools/install-kubectl/)
