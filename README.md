@@ -85,9 +85,23 @@ und prüfen Sie, ob die Kommunikation der beiden Dienste funktioniert.
 
 Wie sind die beiden Dienste gekoppelt? Ist das gut? Diskutieren Sie!
 
-**Aufgabe 5 - Kopplung von Microservices über einen Event Broker am Beispiel von RabbitMQ**
+**Aufgabe 5 - Microservices und Event Broker am Beispiel von RabbitMQ**
 
-Im Verzeichnis 2-simple-microservices
+In dieser Aufgabe werden wir [RabbitMQ](https://www.rabbitmq.com/) als Event Broker für die Kommunikation von Microservices im Pub-Sub Modus verwenden. Über folgenden Befehl können Sie RabbitMQ können Sie RabbitMQ in einem Docker Container starten:
+
+   ```bash
+docker run -d --hostname rabbitmq --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3-management
+   ```
+Öffnen Sie ihren Browser mit der Adresse 
+
+   ```bash
+http://localhost:15672
+   ```
+Mit `login: guest`, `password: guest` können Sie sich in das Management Interface einloggen.  
+
+Im Verzeichnis microservices-rabbitmq finden Sie in den Unterverzeichnissen jeweils zwei einfache Microservices, die über den Event Broker miteinander kommunizieren können.  
+
+Welcher ist der Publisher und welcher der Subscriber?
 
 **Aufgabe 2 - Ein erstes Kubernetes Cluster aufsetzen**
 
