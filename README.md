@@ -124,6 +124,6 @@ Diskutieren Sie auch hier die Kopplung der Dienste.
 
 Fügen Sie dem System einen weiteren Microservice als Subscriber hinzu.  
 
-![rabbitmq.png]
+![rabbitmq.png](rabbitmq.png)
 
 
