@@ -87,7 +87,7 @@ Wie sind die beiden Dienste gekoppelt? Ist das gut? Diskutieren Sie!
 
 **Aufgabe 5 - Microservices und Event Broker am Beispiel von RabbitMQ**
 
-In dieser Aufgabe werden wir [RabbitMQ](https://www.rabbitmq.com/) als Event Broker für die Kommunikation von Microservices im Pub-Sub Modus verwenden. Über folgenden Befehl können Sie RabbitMQ können Sie RabbitMQ in einem Docker Container starten:
+In dieser Aufgabe werden wir [RabbitMQ](https://www.rabbitmq.com/) als Event Broker für die Kommunikation von Microservices im Pub-Sub Modus verwenden. Über folgenden Befehl können Sie RabbitMQ in einem Docker Container starten:
 
    ```bash
 docker run -d --hostname rabbitmq --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3-management
