@@ -118,7 +118,7 @@ Der Dienst sollte nun laufen und Nachrichten senden. Überprüfen Sie das im Rab
 
 Starten Sie microserviceB auf dieselbe Weise.  
 
-Um weitere Aktivitäten erkenn zu können, müssen Sie anschließend microserviceA erneut starten. Überprüfen Sie das im RabbitMQ Management Interface.  
+Um weitere Aktivitäten erkennen zu können, müssen Sie anschließend microserviceA erneut starten. Überprüfen Sie das im RabbitMQ Management Interface.  
 
 Diskutieren Sie auch hier die Kopplung der Dienste.  
 
