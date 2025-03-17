@@ -126,4 +126,3 @@ Fügen Sie dem System einen weiteren Microservice als Subscriber hinzu.
 
 ![rabbitmq.png](rabbitmq.png)
 
-
